@@ -8,7 +8,7 @@ Case folding: Entire input either in small letter or capital letter. In general 
 Issue with case folding: Meaning of an acronym is lost example “US” is converting into “us”. Clever indexing algorithms can overcome even this problem example algorithm based on user profile, location, user history etc.
  code:
  
-< public class WhiteSpaceTokenizer {
+ public class WhiteSpaceTokenizer {
 	public static void main(String []args){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the string to be tokenised: ");
@@ -25,4 +25,4 @@ Issue with case folding: Meaning of an acronym is lost example “US” is conve
 		System.out.println(tokens[0]);
 	}
 
-}>
+}
